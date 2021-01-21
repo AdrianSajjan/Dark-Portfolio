@@ -6,7 +6,7 @@ import next from "assets/images/Next.png";
 import sass from "assets/images/Sass.png";
 import nest from "assets/images/Nest.png";
 import node from "assets/images/Node.png";
-import antd from "assets/images/Antd.svg";
+import antd from "assets/vectors/Antd.svg";
 import react from "assets/images/React.png";
 import redux from "assets/images/Redux.png";
 import _styled from "assets/images/Styled.png";

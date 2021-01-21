@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Sidebar from "components/Sidebar";
-import Logo from "assets/images/Logo.svg";
+import Logo from "assets/vectors/Logo.svg";
 import { RiMenu5Fill } from "react-icons/ri";
 import React, { Fragment, useState } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";

@@ -2,10 +2,10 @@ import React from "react";
 import theme from "config/theme";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import waves from "assets/images/Waves.svg";
-import lines from "assets/images/Pattern-Lines.svg";
-import programmer from "assets/images/Programmer.svg";
-import squares from "assets/images/Pattern-Square.svg";
+import waves from "assets/vectors/Waves.svg";
+import lines from "assets/vectors/Pattern-Lines.svg";
+import programmer from "assets/vectors/Programmer.svg";
+import squares from "assets/vectors/Pattern-Square.svg";
 import { ImFacebook, ImLinkedin2, ImTwitter } from "react-icons/im";
 
 const transition = {
