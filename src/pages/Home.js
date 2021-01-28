@@ -90,6 +90,10 @@ const Wrapper = styled.div`
 const Inner = styled.div`
   padding: 40px;
   background-color: ${(props) => props.theme.colors.background}B3;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 5px;
+  }
 `;
 
 const Title = styled.h1`
@@ -101,11 +105,21 @@ const Title = styled.h1`
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 36px;
   }
+
+  @media ${(props) => props.theme.breakpoints.xs} {
+    font-size: 32px;
+  }
 `;
 
 const Description = styled.p`
   margin-top: 10px;
   color: ${(props) => props.theme.colors.accent};
+
+  @media ${(props) => props.theme.breakpoints.xs} {
+    font-size: 15px;
+    max-width: 300px;
+    line-height: 25px;
+  }
 `;
 
 const SocialLinks = styled.div`
