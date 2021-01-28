@@ -43,8 +43,8 @@ export default function Sidebar({ open, handleClose }) {
             <NavLink to="/projects" onClick={handleClose} active={isNavActive("projects")}>
               Projects
             </NavLink>
-            <NavLink to="/hire" onClick={handleClose} active={isNavActive("hire")}>
-              Hire Me
+            <NavLink to="/contact" onClick={handleClose} active={isNavActive("contact")}>
+              Contact
             </NavLink>
           </NavLinks>
         </Content>

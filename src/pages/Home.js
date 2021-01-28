@@ -32,10 +32,10 @@ export default function Home() {
             <ImFacebook size={16} />
           </SocialLink>
           <SocialLink href="https://www.linkedin.com/AdrianSajjan">
-            <ImLinkedin2 size={16} color={theme.colors.primary} />
+            <ImLinkedin2 size={16} />
           </SocialLink>
           <SocialLink href="https://www.github.com/AdrianSajjan">
-            <ImGithub size={16} color={theme.colors.primary} />
+            <ImGithub size={16} />
           </SocialLink>
         </SocialLinks>
         <Wrapper>
@@ -87,6 +87,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.h1`
+  color: white;
   font-size: 48px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -121,6 +122,7 @@ const SocialLink = styled.a`
   width: 40px;
   height: 40px;
   display: flex;
+  color: white;
   margin-top: 20px;
   border-radius: 50px;
   margin-bottom: 20px;

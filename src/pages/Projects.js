@@ -98,6 +98,7 @@ const Container = styled.div`
     width: 90%;
   }
 `;
+
 const Cards = styled.div`
   display: grid;
   grid-gap: 100px;
@@ -155,6 +156,7 @@ const Name = styled.p`
   font-size: 24px;
   font-weight: 500;
   text-align: center;
+  color: white;
 
   @media ${(props) => props.theme.breakpoints.xs} {
     font-size: 18px;
@@ -163,6 +165,7 @@ const Name = styled.p`
 
 const Description = styled.p`
   font-size: 15px;
+  color: white;
   margin-top: 12px;
   line-height: 25px;
   text-align: center;
@@ -181,6 +184,7 @@ const Link = styled.a`
   text-decoration: none;
 
   svg {
+    fill: white;
     font-size: 20px;
     transition: fill 0.2s ease;
 
@@ -190,10 +194,11 @@ const Link = styled.a`
   }
 
   span {
+    color: white;
     font-size: 18px;
     margin-top: 2px;
     font-weight: 500;
-    margin-left: 5px;
+    margin-left: 10px;
     transition: color 0.2s ease;
 
     @media ${(props) => props.theme.breakpoints.xs} {

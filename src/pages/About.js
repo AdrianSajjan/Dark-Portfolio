@@ -164,6 +164,7 @@ const Column = styled.div`
 `;
 
 const Title = styled.h1`
+  color: white;
   font-size: 36px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -188,6 +189,7 @@ const Title = styled.h1`
 `;
 
 const Subtitle = styled.h1`
+  color: white;
   font-size: 24px;
   margin-top: 40px;
   font-weight: 400;

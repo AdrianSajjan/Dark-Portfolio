@@ -43,9 +43,11 @@ const Container = styled(motion.div)`
 
 const Title = styled.h2`
   font-weight: 400;
+  color: white;
 `;
 
 const Subtitle = styled.h3`
+  color: white;
   margin-top: 20px;
   font-weight: 400;
   margin-bottom: 30px;

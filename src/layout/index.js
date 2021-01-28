@@ -31,8 +31,8 @@ export default function Layout({ children }) {
               <NavItem to="/projects" activelink={isActive("/projects")}>
                 Projects
               </NavItem>
-              <Button to="/hire" activelink={isActive("/hire")}>
-                Hire Me
+              <Button to="/contact" activelink={isActive("/contact")}>
+                Contact
               </Button>
             </Navbar>
             <Hamburger onClick={() => setOpen(true)}>
@@ -84,6 +84,7 @@ const Navbar = styled.div`
 `;
 
 const NavItem = styled(RouterLink)`
+  color: white;
   font-weight: 600;
   margin-left: 30px;
   margin-right: 30px;
@@ -117,6 +118,7 @@ const NavItem = styled(RouterLink)`
 `;
 
 const Button = styled(RouterLink)`
+  color: white;
   font-weight: 600;
   margin-left: 50px;
   padding: 10px 20px;
@@ -135,6 +137,7 @@ const Button = styled(RouterLink)`
 const Hamburger = styled.button`
   border: none;
   padding: 5px;
+  color: white;
   display: none;
   margin-left: auto;
   background-color: transparent;
