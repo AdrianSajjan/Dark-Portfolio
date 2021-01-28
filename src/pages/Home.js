@@ -38,9 +38,11 @@ export default function Home() {
           </SocialLink>
         </SocialLinks>
         <Wrapper>
-          <Title>I'm Adrian Sajjan</Title>
-          <Description>I am a full stack developer and I love building web apps.</Description>
-          <Description>I also love to play football.</Description>
+          <Inner>
+            <Title>I'm Adrian Sajjan</Title>
+            <Description>I am a full stack developer and I love building web apps.</Description>
+            <Description>I also love to play football.</Description>
+          </Inner>
         </Wrapper>
         <Programmer src={programmer} />
         <SquarePattern src={squares} />
@@ -72,8 +74,8 @@ const Container = styled.div`
 const Wrapper = styled.div`
   z-index: 5;
   display: flex;
-  margin-top: 100px;
-  margin-left: 80px;
+  margin-top: 60px;
+  margin-left: 40px;
   overflow-x: hidden;
   position: relative;
   flex-direction: column;
@@ -85,12 +87,16 @@ const Wrapper = styled.div`
   }
 `;
 
+const Inner = styled.div`
+  padding: 40px;
+  background-color: ${(props) => props.theme.colors.background}B3;
+`;
+
 const Title = styled.h1`
   color: white;
   font-size: 48px;
   font-weight: 400;
   margin-bottom: 20px;
-  background-color: ${(props) => props.theme.colors.background};
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 36px;
@@ -100,7 +106,6 @@ const Title = styled.h1`
 const Description = styled.p`
   margin-top: 10px;
   color: ${(props) => props.theme.colors.accent};
-  background-color: ${(props) => props.theme.colors.background};
 `;
 
 const SocialLinks = styled.div`
