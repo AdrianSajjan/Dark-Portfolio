@@ -6,7 +6,7 @@ import waves from "assets/vectors/Waves.svg";
 import lines from "assets/vectors/Pattern-Lines.svg";
 import programmer from "assets/vectors/Programmer.svg";
 import squares from "assets/vectors/Pattern-Square.svg";
-import { ImFacebook, ImLinkedin2, ImTwitter } from "react-icons/im";
+import { ImFacebook, ImLinkedin2, ImTwitter, ImGithub } from "react-icons/im";
 
 const transition = {
   bounce: 0,
@@ -25,14 +25,17 @@ export default function Home() {
       <Container>
         <SquareLines src={lines} />
         <SocialLinks>
-          <SocialLink href="https://www.twitter.com">
+          <SocialLink href="https://www.twitter.com/AdrianSajjan">
             <ImTwitter size={16} />
           </SocialLink>
-          <SocialLink href="https://www.facebook.com">
+          <SocialLink href="https://www.facebook.com/AdrianSajjan">
             <ImFacebook size={16} />
           </SocialLink>
-          <SocialLink href="https://www.linkedin.com">
+          <SocialLink href="https://www.linkedin.com/AdrianSajjan">
             <ImLinkedin2 size={16} color={theme.colors.primary} />
+          </SocialLink>
+          <SocialLink href="https://www.github.com/AdrianSajjan">
+            <ImGithub size={16} color={theme.colors.primary} />
           </SocialLink>
         </SocialLinks>
         <Wrapper>
@@ -87,6 +90,7 @@ const Title = styled.h1`
   font-size: 48px;
   font-weight: 400;
   margin-bottom: 20px;
+  background-color: ${(props) => props.theme.colors.background};
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 36px;
@@ -96,15 +100,18 @@ const Title = styled.h1`
 const Description = styled.p`
   margin-top: 10px;
   color: ${(props) => props.theme.colors.accent};
+  background-color: ${(props) => props.theme.colors.background};
 `;
 
 const SocialLinks = styled.div`
+  z-index: 5;
   display: flex;
   margin-top: 150px;
+  position: relative;
   flex-direction: column;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    margin-top: 20px;
+    margin-top: 50px;
     flex-direction: row;
     justify-content: flex-end;
   }

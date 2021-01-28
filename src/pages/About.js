@@ -1,22 +1,22 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import mui from "assets/images/MUI.png";
-import next from "assets/images/Next.png";
-import sass from "assets/images/Sass.png";
-import nest from "assets/images/Nest.png";
-import node from "assets/images/Node.png";
 import antd from "assets/vectors/Antd.svg";
-import react from "assets/images/React.png";
-import redux from "assets/images/Redux.png";
-import _styled from "assets/images/Styled.png";
-import profile from "assets/images/Profile.jpg";
-import mongoDB from "assets/images/MongoDB.png";
-import express from "assets/images/Express.png";
-import tailwind from "assets/images/Tailwind.png";
-import postgres from "assets/images/Postgres.png";
+import mui from "assets/images/stacks/MUI.png";
+import next from "assets/images/stacks/Next.png";
+import sass from "assets/images/stacks/Sass.png";
+import node from "assets/images/stacks/Node.png";
+import nest from "assets/images/stacks/Nest.png";
 import { FaRegCheckCircle } from "react-icons/fa";
-import reactNative from "assets/images/React-Native.png";
+import react from "assets/images/stacks/React.png";
+import redux from "assets/images/stacks/Redux.png";
+import _styled from "assets/images/stacks/Styled.png";
+import profile from "assets/images/profile/Profile.jpg";
+import mongoDB from "assets/images/stacks/MongoDB.png";
+import express from "assets/images/stacks/Express.png";
+import tailwind from "assets/images/stacks/Tailwind.png";
+import postgres from "assets/images/stacks/Postgres.png";
+import reactNative from "assets/images/stacks/React-Native.png";
 
 const transition = {
   bounce: 0,
