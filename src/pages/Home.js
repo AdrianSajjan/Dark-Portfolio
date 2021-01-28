@@ -1,5 +1,4 @@
 import React from "react";
-import theme from "config/theme";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import waves from "assets/vectors/Waves.svg";
